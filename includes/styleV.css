@@ -1,0 +1,326 @@
+/* div rundt siden */
+.mainV{
+    display: grid;
+    grid-template-areas: 
+        "tLeft tLeft tRight"
+        "mLeft mMid mRight"
+        "bLeft bMid bRight";
+    grid-template-columns: 1fr 3fr 3fr;
+}
+/* div rundt siden slutt */
+
+h3{
+    margin: 0px;
+}
+.linkH2{
+    color: white;
+    text-decoration: none;
+}
+
+.loginVed{
+    padding: 20px;
+}
+
+/*--------------------------*/
+/*table reged siden start*/
+h2.h2Hot{
+    margin: 0px;
+    padding: 20px;
+}
+
+/*knapper top nav*/
+.topNavHotRegEd{
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    
+}
+.btnRegHot{
+    border: none;
+    background-color: #3c7db3;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnRegRomtype{
+    border: none;
+    background-color: #3c7db3;
+    padding: 5px;
+    color: white; 
+    cursor: pointer;
+}
+
+.btnUpdateChange{
+    border: none;
+    background-color: mediumseagreen;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btnUpdateChange:hover {
+    background-color: #2b7d4d;
+}
+.btnTopNavRegEd{
+    width: 200px;
+}
+.btnRegHot:hover,
+.btnRegRomtype:hover{
+    background-color: #285173;
+}
+.hoverGrinRegEd{
+    background-color: #3c7db3;
+    cursor: pointer;
+}
+.hoverGrinRegEd:hover{
+    background-color: #285173;
+}
+
+/*knapper top navslutt */
+
+/*red reg table*/
+.hotRegEd{
+    width: 100%;
+    padding: 20px;
+}
+.colspan3width{
+    width: 250px;
+}
+.tableImg{
+    
+}
+hr.lineHot {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.tblBtnVis{
+    border: none;
+    background-color: #3c7db3;
+    padding: 5px;
+    color: white; 
+    width: 100%;
+}
+.tblBtnEd{
+    border: none;
+    background-color: #3c7db3;
+    padding: 5px;
+    color: white;
+    width: 100%;
+}
+.tblBtnReg{
+    border: none;
+    background-color: #3c7db3;
+    padding: 5px;
+    color: white; 
+    width: 100%;
+}
+.hotNavntxt{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+ /* red reg table slutt */
+
+
+/*table reged siden sluttet
+/*--------------------------*/
+
+/*-------------------------*/
+/* top NAV */
+.tLeftDiv{
+    grid-area: tLeft;
+    background-color: dimgray;
+    color: white;
+    padding: 10px;
+}
+
+.userLoggOutV{
+    padding: 10px;
+    grid-area: tRight;
+    background-color: dimgray;
+    display: block;
+    color: white;  
+}
+/* top NAV sluttet*/
+/*-------------------------*/
+
+
+/*-------------------------*/
+/* left NAV*/
+.navBarV{
+    grid-area: mLeft;
+    /*border: 1px solid black;*/
+    background-color: dimgrey;
+    width: 100%;
+    height: 100%;
+    color: white; 
+}
+.navBarV table {
+    border-spacing: 0;
+}
+
+.menyV{
+    padding: 5px;
+    margin: 0;
+}
+
+#ob1,#ob2{
+    width: 100%;
+    height: 800px;
+}
+
+.navMtitle {
+    background-color: black;
+    height: 33px;
+}
+
+.navBarV table{
+    width: 100%;
+}
+
+.navbarKnappV1:hover{
+    background-color: #2b7d4d;
+    cursor: pointer;
+}
+
+.navbarKnappV2:hover{
+    background-color: #285173;
+    cursor: pointer;
+}
+
+.navbarKnappV1{
+    padding: 5px;
+    background-color: mediumseagreen;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbarKnappV2{
+    padding: 5px;
+    background-color: #3c7db3;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbarKnappV1, .navbarKnappV2 {
+    cursor: pointer;
+}
+/* left NAV slutt*/
+/*-------------------------*/
+
+/* div rundt vindu 1*/
+.mMidV{
+    grid-area: mMid;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+/* div rundt vindu 1*/
+
+/* div rundt vindu 2*/
+.rMidV{
+    grid-area: mRight;
+    width: calc(100% - 1px);
+    height: 100%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: none;
+    overflow: auto;
+}
+/* div rundt vindu 2*/
+
+/*------------------------*/
+/* skjema i object */
+.formV{
+    margin: 5px;
+   
+}
+
+.confirm{
+    border: none;
+    background-color: mediumseagreen;
+    padding: 5px;
+    color: white;
+    
+}
+
+.deny{
+    border: none;
+    background-color: #b33c5d;
+    padding: 5px;
+    color: white;
+}
+
+.padding5LV{
+    padding: 5px;
+    color: white;
+    margin: 0px;
+    align-content: center;
+}
+
+.hrV{
+    margin: 0px;
+}
+/* skjema i object Slutt */
+/*------------------------*/
+
+/*------------------------*/
+/* tittel over skjema box*/
+.h3V1{
+    background-color: mediumseagreen;
+    
+}
+
+.h3V2{
+    background-color: #3c7db3;
+}
+/* tittel over skjema box slutt*/
+/*------------------------*/
+/*------------------------*/
+/*Vis Hoteller*/
+.visHotellerVtd{
+    padding-right: 5px;
+}
+/*Vis Hoteller slutt*/
+/*------------------------*/
+/*------------------------*/
+/*Generelle klasser*/
+.slettKnappV{
+    background-color: red;
+    align-content: center;
+    text-align: center;
+}
+.underline{
+    border-bottom: 1px solid black;
+}
+.vishotellerBestillinger{
+    border-collapse:collapse;
+    cursor: pointer;
+}
+.loggutbtn{
+    border: none;
+    background-color: white; 
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.loggutbtn:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.clearbtn{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.clearbtn:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+/*Slutt Generelle klasser*/

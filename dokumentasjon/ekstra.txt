@@ -1,0 +1,35 @@
+<-- EKSTRAFUNKSJONER -->
+
+
+VEDLIKEHOLD 
+- laste opp bilder for hotell
+- laste opp bilder for romtyper ved et hotell
+- validering av ulovlige tegn. mellomrom blir _ på registrer/rediger bilder
+- vise alt innhold på admin side, fex oversikt over bilder med romtype og hotell.
+- det her med tot antall rom, sletting og redigering. passer på at du ikke kan redigere ned ant rom lavere enn det som er registrert.
+- 2 vinduer for lettere arbeidsflyt.
+
+MINSIDE
+- bestillingshistorikk med mulighet for å endre bestillinger som er i fremtiden
+- pris oppdaterer seg etter endring av bestilling på minside. Det sjekkes også under endring om det er ledige rom for evt ny romtype og/eller datoer, med bekreftende ikoner.
+
+DATABASE
+- stor forbokstav primærnøkler
+- ved sletting av primnærnøkler slett i andre tabeller også
+
+BESTILLING
+- Viser antall netter mellom fra og til dato i tillegg til hvilken ukedag datoen er på. 
+- min- og max-verdiene for dato-feltene oppdaterer seg slik at man ikke kan angi en innsjekksdato før utsjekksdato og at man minst må booke en hel natt. 
+- I søkeresultatet er det et bildeslideshow for hver romtype i det angitte hotellet 
+- I søkeresultatet får man en oversikt over hvor mange rom som er tilgjengelige av hver romtype mellom datoene som er angitt i søkesjemaet. Man ser også kostnaden for hver av romtypene. 
+- Når man velger en romtype får man opp et vindu med en oppsummering av bestillingen; bekrefter man vil man bli informert om at bestillingen er registrert og man får tildelt et romnummer. 
+- Bilde for rom
+
+FORSIDE
+- Printes ut fancy oversikt over steder som Bjarvin hotels har hoteller. Bytter ut elste bilder når de byttes ut.
+
+ANNET
+- side med full oversikt over alle destinasjoner Bjarvin hotels har av hoteller
+- destinasjoner oppdaterer seg i kronologisk rekkefølge
+- Laste-ikoner for ajax-forespørsler
+- Script sjekker databaseregistre opp mot opplastingsfolder og sletter filer som ikke skal være der(/filer som ikke er i bruk)
